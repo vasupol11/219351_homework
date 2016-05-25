@@ -13,6 +13,7 @@ jar cf anyname.jar filename*.class
 4. Upload the web-Google.txt to your hdfs
 
 5. Run the program with web-Google.txt as the input file
+
 hadoop jar filename.jar filename directorytoweb-Google.txt directoryofoutput
 
 Note: anyname means you can put any name for it, it doesnt matter.
