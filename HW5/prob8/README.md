@@ -4,8 +4,10 @@
 upload the .java file to your local hdfs. Otherwise, don't upload the .java
 and upload .jar files with .class and skip to step 4.
 
-3. Compile the program and make a jar file out of it with the following commands: 
+3. Compile the program and make a jar file out of it with the following commands:
+
 hadoop com.sun.tools.javac.Main filename.java 
+
 jar cf anyname.jar filename*.class 
 
 4. Upload the web-Google.txt to your hdfs
